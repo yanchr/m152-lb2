@@ -1,0 +1,33 @@
+button {
+    width: 105px;
+    height: 50px;
+    font-size: 25px;
+    color: #ede8ed;
+    background: linear-gradient(to right, #4ee084, #36b9ff);
+    border: none;
+    border-radius: 8px;
+    font-family: arial-black;
+    transition: all 0.25s ease;
+
+}
+button:hover {
+    color: #e8e8e8;
+    background: linear-gradient(to right bottom, #44c272, #2e9fdb);
+    border-color: none;
+}
+
+button:active {
+    background: linear-gradient(to right bottom, #287243, #21719c);
+    transform: translateY(2px);
+}
+
+@keyframes fadeOutAnimation {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        top: 0;
+        opacity: 0.1;
+    }
+}
+
